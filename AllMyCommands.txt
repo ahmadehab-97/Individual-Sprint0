@@ -1,0 +1,15 @@
+-git init
+-git remote add origin https://github.com/ahmadehab-97/Individual-Sprint0.git
+-git add .
+-git checkout SecondFile.txt
+-git commit -m "commiting changes"
+-git push -u origin master
+-git branch ReadMe
+-git checkout ReadMe
+-git add README.md
+-git commit -m "commiting changes"
+-git checkout Master
+-git merge ReadMe
+-git add AllMyCommands.txt
+-git commit -m "commiting changes"
+-git push -u origin --all
